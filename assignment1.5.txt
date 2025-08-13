@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{/*Program to add & subtract & multiply & divide 2 Nos.*/
+ int a,b,c,d,e,f;
+ printf("Enter 2 Nos");
+ scanf("%d %d",&a,&b);
+ c=a+b,d=a-b,e=a*b,f=a/b;
+ printf("%d + %d = %d/n",a,b,c);
+ printf("%d * %d = %d/n",a,b,d);
+ printf("%d * %d = %d/n",a,b,e);
+ printf("%d / %d = %d/n",a,b,f);
+}
